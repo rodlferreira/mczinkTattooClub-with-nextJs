@@ -1,8 +1,14 @@
-// import '../styles/global.scss'
+import About from "../components/About";
+import Header from "../components/Header";
+import Team from "../components/Team";
 
 
 export default function Home() {
   return (
-    <h1>hello world</h1>
-  )
+    <>
+        <Header />
+        <About />
+        <Team />
+    </>
+  );
 }

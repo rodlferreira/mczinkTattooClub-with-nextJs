@@ -6,20 +6,28 @@
 
 
 :root {
+
   --white: #FFF;
 
-  --gray-50: #F7F8FA;
-  --gray-100: #E6E8EB;
-  --gray-200: #AFB2B1;
-  --gray-500: #808080;
-  --gray-800: #494D4B;
+  --green-mczink: #37382b;
+  --yellow-mczink: ##eedea4;
+  --khaki: #87825b;
+  --khaki-sub: #9f9871;
+  --gray-clear: #9c9c8c;
+  --gray-green: #515244;
+  --gray-green-medium: #6c6c5c;
 
-  --green-500: #04D361;
+  --green-soldier: #a4a46c;
   
-  --purple-300: #9F75FF;
-  --purple-400: #9164FA; 
-  --purple-500: #8257E5;
-  --purple-800: #6F48C9;
+  --dark: #020202;
+  --dark-gray: #3B3C39; 
+  --gray-body: #424242;
+  // --body: #353335; opção 2 para o body
+  --body: #272627;
+
+  --font: #D3D3DA;
+  --sub-title: #E6E6EE;
+
 }
 
 @media (max-width: 1080px) {
@@ -30,13 +38,13 @@
 }  
 
 body {
-  background: var(--gray-50);
+  background: var(--body);
 }
 
-body, input, textarea, button {
+body, input, textarea{
 
   font: 500 1rem Inter, sans-serif;
-  color: var(--gray-500);
+  color: var(--font);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,4 +63,6 @@ h2 {
 
 button {
   cursor: pointer;
+  font: 500 1rem Inter, sans-serif;
+  color: var(--body);
 }
