@@ -1,5 +1,7 @@
 import About from "../components/About";
+import AllRights from "../components/AllRights";
 import ButtonSeeMore from "../components/ButtonSeeMore";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import {Location} from "../components/Location";
 import SocialMedia from "../components/SocialMedia";
@@ -15,6 +17,8 @@ export default function Home() {
         <ButtonSeeMore />
         <SocialMedia />
         <Location />
+        <Footer />
+        <AllRights />
     </>
   );
 }
