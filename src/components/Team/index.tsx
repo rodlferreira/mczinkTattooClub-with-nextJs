@@ -1,4 +1,13 @@
-import { Image, Grid, Flex, Box, Text, Button, Stack, ButtonGroup, GridItem} from "@chakra-ui/react"
+import { 
+  Image, 
+  Grid, 
+  Flex, 
+  Box, 
+  Text, 
+  Button, 
+  Stack, 
+  } from "@chakra-ui/react"
+  
 import React from "react";
 
 export default function Team() {
@@ -27,12 +36,17 @@ export default function Team() {
                     align="center" 
                     ml="4.5rem"
                    >
-                    <Text 
+                    <Button 
+                      backgroundColor="var(--green-mczink)"
+                      color="var(--white)"
                       size="xs" 
                       textAlign="center"
+                      variant="link"
+                      
+                      
                     >
                       Yrlan Lins
-                    </Text>
+                    </Button>
 
                     </Box>
 
@@ -42,13 +56,12 @@ export default function Team() {
                       ml="2rem" 
                       position="absolute"
                     >
-                      <Button
-                       backgroundColor="var(--body)" 
-                       color="var(--white)" 
-                       variant="link" 
+                      <Text
+                       backgroundColor="var(--green-mczink)" 
+                       color="var(--white)"  
                       >
                         American traditional
-                      </Button>
+                      </Text>
 
                     </Stack>
 
@@ -82,12 +95,15 @@ export default function Team() {
                     align="center" 
                     ml="4.5rem"
                    >
-                    <Text 
+                    <Button 
+                      backgroundColor="var(--green-mczink)"
+                      color="var(--white)"
                       size="xs" 
                       textAlign="center"
+                      variant="link"
                     >
                       Yrlan Lins
-                    </Text>
+                    </Button>
 
                     </Box>
 
@@ -97,13 +113,12 @@ export default function Team() {
                       ml="2rem" 
                       position="absolute"
                     >
-                      <Button
-                       backgroundColor="var(--body)" 
-                       color="var(--white)" 
-                       variant="link" 
+                      <Text
+                       backgroundColor="var(--green-mczink)" 
+                       color="var(--white)"  
                       >
                         American traditional
-                      </Button>
+                      </Text>
 
                     </Stack>
 
@@ -138,12 +153,15 @@ export default function Team() {
                     align="center" 
                     ml="4.5rem"
                    >
-                    <Text 
+                    <Button 
+                      backgroundColor="var(--green-mczink)"
+                      color="var(--white)"
                       size="xs" 
                       textAlign="center"
+                      variant="link"
                     >
                       Yrlan Lins
-                    </Text>
+                    </Button>
 
                     </Box>
 
@@ -153,13 +171,12 @@ export default function Team() {
                       ml="2rem" 
                       position="absolute"
                     >
-                      <Button
-                       backgroundColor="var(--body)" 
-                       color="var(--white)" 
-                       variant="link" 
+                      <Text
+                       backgroundColor="var(--green-mczink)" 
+                       color="var(--white)"  
                       >
                         American traditional
-                      </Button>
+                      </Text>
 
                     </Stack>
 
@@ -190,12 +207,15 @@ export default function Team() {
                     align="center" 
                     ml="4.5rem"
                    >
-                    <Text 
+                    <Button 
+                      backgroundColor="var(--green-mczink)"
+                      color="var(--white)"
                       size="xs" 
                       textAlign="center"
+                      variant="link"
                     >
                       Yrlan Lins
-                    </Text>
+                    </Button>
 
                     </Box>
 
@@ -205,13 +225,12 @@ export default function Team() {
                       ml="2rem" 
                       position="absolute"
                     >
-                      <Button
-                       backgroundColor="var(--body)" 
-                       color="var(--white)" 
-                       variant="link" 
+                      <Text
+                       backgroundColor="var(--green-mczink)" 
+                       color="var(--white)"  
                       >
                         American traditional
-                      </Button>
+                      </Text>
 
                     </Stack>
 
@@ -245,12 +264,15 @@ export default function Team() {
                     align="center" 
                     ml="4.5rem"
                    >
-                    <Text 
+                    <Button 
+                      backgroundColor="var(--green-mczink)"
+                      color="var(--white)"
                       size="xs" 
                       textAlign="center"
+                      variant="link"
                     >
                       Yrlan Lins
-                    </Text>
+                    </Button>
 
                     </Box>
 
@@ -260,13 +282,12 @@ export default function Team() {
                       ml="2rem" 
                       position="absolute"
                     >
-                      <Button
-                       backgroundColor="var(--body)" 
-                       color="var(--white)" 
-                       variant="link" 
+                      <Text
+                       backgroundColor="var(--green-mczink)" 
+                       color="var(--white)"  
                       >
                         American traditional
-                      </Button>
+                      </Text>
 
                     </Stack>
 
@@ -274,7 +295,7 @@ export default function Team() {
                 
             </Grid>
 
-            <Grid mt="10rem">
+            <Grid mt="10rem" ml="-7.5rem">
             <Grid position="absolute" ml="14rem">
                 <Flex>
                 <Image
@@ -292,12 +313,15 @@ export default function Team() {
                     align="center" 
                     ml="4.5rem"
                    >
-                    <Text 
+                    <Button 
+                      backgroundColor="var(--green-mczink)"
+                      color="var(--white)"
                       size="xs" 
                       textAlign="center"
+                      variant="link"
                     >
                       Yrlan Lins
-                    </Text>
+                    </Button>
 
                     </Box>
 
@@ -307,13 +331,12 @@ export default function Team() {
                       ml="2rem" 
                       position="absolute"
                     >
-                      <Button
-                       backgroundColor="var(--body)" 
-                       color="var(--white)" 
-                       variant="link" 
+                      <Text
+                       backgroundColor="var(--green-mczink)" 
+                       color="var(--white)"  
                       >
                         American traditional
-                      </Button>
+                      </Text>
 
                     </Stack>
 
@@ -343,12 +366,15 @@ export default function Team() {
                     align="center" 
                     ml="4.5rem"
                    >
-                    <Text 
+                    <Button 
+                      backgroundColor="var(--green-mczink)"
+                      color="var(--white)"
                       size="xs" 
                       textAlign="center"
+                      variant="link"
                     >
                       Yrlan Lins
-                    </Text>
+                    </Button>
 
                     </Box>
 
@@ -358,13 +384,12 @@ export default function Team() {
                       ml="2rem" 
                       position="absolute"
                     >
-                      <Button
-                       backgroundColor="var(--body)" 
-                       color="var(--white)" 
-                       variant="link" 
+                      <Text
+                       backgroundColor="var(--green-mczink)" 
+                       color="var(--white)"  
                       >
                         American traditional
-                      </Button>
+                      </Text>
 
                     </Stack>
 
@@ -392,12 +417,15 @@ export default function Team() {
                     align="center" 
                     ml="4.5rem"
                    >
-                    <Text 
+                    <Button 
+                      backgroundColor="var(--green-mczink)"
+                      color="var(--white)"
                       size="xs" 
                       textAlign="center"
+                      variant="link"
                     >
                       Yrlan Lins
-                    </Text>
+                    </Button>
 
                     </Box>
 
@@ -407,13 +435,65 @@ export default function Team() {
                       ml="2rem" 
                       position="absolute"
                     >
-                      <Button
-                       backgroundColor="var(--body)" 
-                       color="var(--white)" 
-                       variant="link" 
+                      <Text
+                       backgroundColor="var(--green-mczink)" 
+                       color="var(--white)"  
                       >
                         American traditional
-                      </Button>
+                      </Text>
+
+                    </Stack>
+
+                </Flex>
+                
+            </Grid>
+
+
+
+
+
+
+            <Grid position="absolute" ml="56rem">
+                <Flex>
+                <Image
+                    boxSize="13.5rem"
+                    src="/images/yrlan.jpg"
+                    alt="Yrlan Lins" 
+                    margin="0.5rem"
+
+                />
+                </Flex>
+                <Flex>
+                   <Box
+                    mt="0.5rem" 
+                    justify="center" 
+                    align="center" 
+                    ml="4.5rem"
+                   >
+                    <Button 
+                      backgroundColor="var(--green-mczink)"
+                      color="var(--white)"
+                      size="xs" 
+                      textAlign="center"
+                      variant="link"
+                    >
+                      Yrlan Lins
+                    </Button>
+
+                    </Box>
+
+                    <Stack 
+                      mt="2.5rem" 
+                      justify="center" 
+                      ml="2rem" 
+                      position="absolute"
+                    >
+                      <Text
+                       backgroundColor="var(--green-mczink)" 
+                       color="var(--white)"  
+                      >
+                        American traditional
+                      </Text>
 
                     </Stack>
 

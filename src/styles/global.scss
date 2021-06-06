@@ -38,19 +38,19 @@
 }  
 
 body {
-  background: var(--body);
+  background: var(--green-mczink);
 }
 
 body, input, textarea{
 
-  font: 500 1rem Playball, sans-serif;
+  font: 500 1rem Staatliches, sans-serif;
   color: var(--font);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
-  font-family: Dancing Script, sans -serif;
-  color: var(--gray-800);
+  font-family: Staatliches, sans -serif;
+  // color: var(--gray-800);
 }
 
 h1 {
@@ -63,9 +63,7 @@ h2 {
 
 button {
   cursor: pointer;
-  font: 500 1rem Inter, sans-serif;
-  color: var(--body);
-  font-family: Gloria Hallelujah, sans -serif;
-
+  font: 500 1rem Staatliches, sans-serif;
+  color: var(--green-mczink);
 
 }
