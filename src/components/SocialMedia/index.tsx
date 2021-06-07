@@ -15,7 +15,7 @@ export default function SocialMedia() {
     return(
         <>
 
-            <Grid>
+            <Grid mt="2.5rem">
                 <Box 
                     mt="2rem" 
                     align="center" 
@@ -39,7 +39,7 @@ export default function SocialMedia() {
 
 
                 <Box 
-                    mt="2.5rem" 
+                    mt="3rem" 
                     align="center" 
                     direction="column" 
                     spacing={4} 

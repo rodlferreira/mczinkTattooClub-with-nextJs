@@ -6,8 +6,10 @@ import {
   Text, 
   Button, 
   Stack, 
+  Link
   } from "@chakra-ui/react"
   
+// import typeOfButton from "react";
 import React from "react";
 
 export default function Team() {
@@ -24,7 +26,7 @@ export default function Team() {
                 <Flex>
                 <Image 
                     boxSize="13.5rem"
-                    src="/images/yrlan.jpg"
+                    src="/images/yrlan.png"
                     alt="Yrlan Lins" 
                     margin="0.5rem"
                 />
@@ -36,7 +38,8 @@ export default function Team() {
                     align="center" 
                     ml="4.5rem"
                    >
-                    <Button 
+                     <Link href="/GalleryYrlan/">
+                     <Button 
                       backgroundColor="var(--green-mczink)"
                       color="var(--white)"
                       size="xs" 
@@ -44,26 +47,14 @@ export default function Team() {
                       variant="link"
                       
                       
-                    >
+                     >
                       Yrlan Lins
                     </Button>
+                    </Link>
 
                     </Box>
 
-                    <Stack 
-                      mt="2.5rem" 
-                      justify="center" 
-                      ml="2rem" 
-                      position="absolute"
-                    >
-                      <Text
-                       backgroundColor="var(--green-mczink)" 
-                       color="var(--white)"  
-                      >
-                        American traditional
-                      </Text>
 
-                    </Stack>
 
                 </Flex>
                 
@@ -82,8 +73,8 @@ export default function Team() {
                 <Flex>
                 <Image
                     boxSize="13.5rem"
-                    src="/images/yrlan.jpg"
-                    alt="Yrlan Lins" 
+                    src="/images/rapha.png"
+                    alt="Rapha Lins" 
                     margin="0.5rem"
 
                 />
@@ -102,25 +93,10 @@ export default function Team() {
                       textAlign="center"
                       variant="link"
                     >
-                      Yrlan Lins
+                      Rapha Lins
                     </Button>
 
                     </Box>
-
-                    <Stack 
-                      mt="2.5rem" 
-                      justify="center" 
-                      ml="2rem" 
-                      position="absolute"
-                    >
-                      <Text
-                       backgroundColor="var(--green-mczink)" 
-                       color="var(--white)"  
-                      >
-                        American traditional
-                      </Text>
-
-                    </Stack>
 
                 </Flex>
                 
@@ -132,16 +108,12 @@ export default function Team() {
 
 
 
-
-
-
-
             <Grid position="absolute" ml="28rem">
                 <Flex>
                 <Image
                     boxSize="13.5rem"
-                    src="/images/yrlan.jpg"
-                    alt="Yrlan Lins" 
+                    src="/images/thiago.png"
+                    alt="Thiago Dragon" 
                     margin="0.5rem"
 
                 />
@@ -160,25 +132,10 @@ export default function Team() {
                       textAlign="center"
                       variant="link"
                     >
-                      Yrlan Lins
+                      Thiago Dragon
                     </Button>
 
                     </Box>
-
-                    <Stack 
-                      mt="2.5rem" 
-                      justify="center" 
-                      ml="2rem" 
-                      position="absolute"
-                    >
-                      <Text
-                       backgroundColor="var(--green-mczink)" 
-                       color="var(--white)"  
-                      >
-                        American traditional
-                      </Text>
-
-                    </Stack>
 
                 </Flex>
                 
@@ -194,8 +151,8 @@ export default function Team() {
                 <Flex>
                 <Image
                     boxSize="13.5rem"
-                    src="/images/yrlan.jpg"
-                    alt="Yrlan Lins" 
+                    src="/images/chris.png"
+                    alt="Chris Nunes" 
                     margin="0.5rem"
 
                 />
@@ -214,25 +171,10 @@ export default function Team() {
                       textAlign="center"
                       variant="link"
                     >
-                      Yrlan Lins
+                      Chris Nunes
                     </Button>
 
                     </Box>
-
-                    <Stack 
-                      mt="2.5rem" 
-                      justify="center" 
-                      ml="2rem" 
-                      position="absolute"
-                    >
-                      <Text
-                       backgroundColor="var(--green-mczink)" 
-                       color="var(--white)"  
-                      >
-                        American traditional
-                      </Text>
-
-                    </Stack>
 
                 </Flex>
                 
@@ -251,8 +193,8 @@ export default function Team() {
                 <Flex>
                 <Image
                     boxSize="13.5rem"
-                    src="/images/yrlan.jpg"
-                    alt="Yrlan Lins" 
+                    src="/images/gabriel.png"
+                    alt="Gabriel Luz" 
                     margin="0.5rem"
 
                 />
@@ -271,37 +213,26 @@ export default function Team() {
                       textAlign="center"
                       variant="link"
                     >
-                      Yrlan Lins
+                      Gabriel Luz
                     </Button>
 
                     </Box>
 
-                    <Stack 
-                      mt="2.5rem" 
-                      justify="center" 
-                      ml="2rem" 
-                      position="absolute"
-                    >
-                      <Text
-                       backgroundColor="var(--green-mczink)" 
-                       color="var(--white)"  
-                      >
-                        American traditional
-                      </Text>
-
-                    </Stack>
-
                 </Flex>
                 
             </Grid>
+
+
+
+
 
             <Grid mt="10rem" ml="-7.5rem">
             <Grid position="absolute" ml="14rem">
                 <Flex>
                 <Image
                     boxSize="13.5rem"
-                    src="/images/yrlan.jpg"
-                    alt="Yrlan Lins" 
+                    src="/images/livia.png"
+                    alt="Livia Maya" 
                     margin="0.5rem"
 
                 />
@@ -320,25 +251,10 @@ export default function Team() {
                       textAlign="center"
                       variant="link"
                     >
-                      Yrlan Lins
+                      Livia Maya
                     </Button>
 
                     </Box>
-
-                    <Stack 
-                      mt="2.5rem" 
-                      justify="center" 
-                      ml="2rem" 
-                      position="absolute"
-                    >
-                      <Text
-                       backgroundColor="var(--green-mczink)" 
-                       color="var(--white)"  
-                      >
-                        American traditional
-                      </Text>
-
-                    </Stack>
 
                 </Flex>
                 
@@ -353,8 +269,8 @@ export default function Team() {
                 <Flex>
                 <Image
                     boxSize="13.5rem"
-                    src="/images/yrlan.jpg"
-                    alt="Yrlan Lins" 
+                    src="/images/bea.png"
+                    alt="Bea Calheiros" 
                     margin="0.5rem"
 
                 />
@@ -373,25 +289,10 @@ export default function Team() {
                       textAlign="center"
                       variant="link"
                     >
-                      Yrlan Lins
+                      Bea Calheiros
                     </Button>
 
                     </Box>
-
-                    <Stack 
-                      mt="2.5rem" 
-                      justify="center" 
-                      ml="2rem" 
-                      position="absolute"
-                    >
-                      <Text
-                       backgroundColor="var(--green-mczink)" 
-                       color="var(--white)"  
-                      >
-                        American traditional
-                      </Text>
-
-                    </Stack>
 
                 </Flex>
                 
@@ -400,12 +301,13 @@ export default function Team() {
 
 
 
+
             <Grid position="absolute" ml="42rem">
                 <Flex>
                 <Image
                     boxSize="13.5rem"
-                    src="/images/yrlan.jpg"
-                    alt="Yrlan Lins" 
+                    src="/images/kenny.png"
+                    alt="Kenny Black" 
                     margin="0.5rem"
 
                 />
@@ -424,25 +326,10 @@ export default function Team() {
                       textAlign="center"
                       variant="link"
                     >
-                      Yrlan Lins
+                      Kenny Black
                     </Button>
 
                     </Box>
-
-                    <Stack 
-                      mt="2.5rem" 
-                      justify="center" 
-                      ml="2rem" 
-                      position="absolute"
-                    >
-                      <Text
-                       backgroundColor="var(--green-mczink)" 
-                       color="var(--white)"  
-                      >
-                        American traditional
-                      </Text>
-
-                    </Stack>
 
                 </Flex>
                 
@@ -457,8 +344,8 @@ export default function Team() {
                 <Flex>
                 <Image
                     boxSize="13.5rem"
-                    src="/images/yrlan.jpg"
-                    alt="Yrlan Lins" 
+                    src="/images/carol.png"
+                    alt="Carol Ragazzi" 
                     margin="0.5rem"
 
                 />
@@ -477,25 +364,10 @@ export default function Team() {
                       textAlign="center"
                       variant="link"
                     >
-                      Yrlan Lins
+                      Carol Ragazzi
                     </Button>
 
                     </Box>
-
-                    <Stack 
-                      mt="2.5rem" 
-                      justify="center" 
-                      ml="2rem" 
-                      position="absolute"
-                    >
-                      <Text
-                       backgroundColor="var(--green-mczink)" 
-                       color="var(--white)"  
-                      >
-                        American traditional
-                      </Text>
-
-                    </Stack>
 
                 </Flex>
                 

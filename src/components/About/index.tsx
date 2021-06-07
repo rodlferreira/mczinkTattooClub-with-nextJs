@@ -10,6 +10,7 @@ export default function About() {
             gap={6} 
             marginLeft="4rem" 
             marginRight="4rem"
+            mt="-60"
             >
 
             <GridItem colSpan={1}>
