@@ -11,7 +11,7 @@ import {Location} from "../components/Location";
 import SocialMedia from "../components/SocialMedia";
 import Team from "../components/Team";
 import client from '../graphql/client';
-import GET_MCZINK_BACKOFFICE from '../graphql/queries/getMczinkBackoffice';
+// import GET_MCZINK_BACKOFFICE from '../graphql/queries/getMczinkBackoffice';
 
 
 const Home = ()=> (
@@ -30,16 +30,16 @@ const Home = ()=> (
 
   )
 
-export const getStaticProps: GetStaticProps = async () => {
-    const { mczinkBackoffice } = await client.request(GET_MCZINK_BACKOFFICE)
+// export const getStaticProps: GetStaticProps = async () => {
+//     const { mczinkBackoffice } = await client.request(GET_MCZINK_BACKOFFICE)
 
-    console.log(mczinkBackoffice)
+//     console.log(mczinkBackoffice)
 
-    return {
-      props: {
-        ...mczinkBackoffice
-      }
-    }
-  }
+//     return {
+//       props: {
+//         ...mczinkBackoffice
+//       }
+//     }
+//   }
 
- export default Home
+export default Home
